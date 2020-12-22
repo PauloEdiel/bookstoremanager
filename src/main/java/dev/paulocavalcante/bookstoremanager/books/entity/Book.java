@@ -1,6 +1,7 @@
 package dev.paulocavalcante.bookstoremanager.books.entity;
 
 import dev.paulocavalcante.bookstoremanager.author.entity.Author;
+import dev.paulocavalcante.bookstoremanager.entity.Auditable;
 import dev.paulocavalcante.bookstoremanager.publishers.entity.Publisher;
 import dev.paulocavalcante.bookstoremanager.user.entity.User;
 import lombok.Data;
@@ -15,7 +16,7 @@ import javax.persistence.ManyToOne;
 
 @Data
 @Entity
-public class Book {
+public class Book extends Auditable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

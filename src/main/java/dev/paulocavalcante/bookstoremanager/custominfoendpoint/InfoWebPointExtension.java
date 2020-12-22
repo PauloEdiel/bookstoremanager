@@ -1,4 +1,4 @@
-package dev.paulocavalcante.bookstoremanager.custoninfoendpoint;
+package dev.paulocavalcante.bookstoremanager.custominfoendpoint;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.actuate.endpoint.annotation.ReadOperation;
